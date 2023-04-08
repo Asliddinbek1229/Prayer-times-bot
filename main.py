@@ -4,7 +4,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 from muslimsalat import prayer_times
 from datetimeA import todays_date
-API_TOKEN = '6095864768:AAEJVdd1Q0EWzZHHJ6ZJGQaLqSb2yjbjTw8'
+API_TOKEN = 'Your bot token'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -37,7 +37,7 @@ async def times(message: types.Message):
 
     for p, t in times.items():
         time = f"<b>{p}</b>: {t}"
-        p_times += f"\n🕑 {time}"
+        p_times += f"\n{time}"
     await message.answer(p_times)
 
 
