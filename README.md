@@ -1,2 +1,2 @@
 # Namoz-vaqtlari-bot
-Namoz vaqtlari haqida malumot beruvchi bot
+A bot that provides information about prayer times
